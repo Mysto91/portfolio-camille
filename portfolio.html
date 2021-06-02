@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+
+        <div class="home_page">
+
+            <header>
+                <div id="top-bar" class="transform"> 
+                    <a class="index" href="index.html"><h5>Camille Gomes De Assunçao</h5></a>
+                </div>
+                <div id="side-bar-left" class="w40" class="transform">
+                    <div class="menu"
+                        onclick="toggleButton('navigation')" 
+                        onmouseover="changeClass('side-bar-left','w100')" 
+                        onmouseout="changeClass('side-bar-left','w40')">
+                        <div class="menu-lines">
+                            <div class="menu-line menu-line-top no-animation"></div>
+                            <div class="menu-line menu-line-center no-animation"></div>
+                            <div class="menu-line menu-line-bottom no-animation"></div>
+                        </div>
+                        <div id="close-menu" class="menu-x w-inline-block">
+                            <div class="menu-lines-closed">
+                                <div class="menu line menu-line-top-x"></div>
+                                <div class="menu line menu-line-center-x"></div>
+                                <div class="menu line menu-line-bottom-x"></div>
+                            </div>
+                        </div>
+                        <div class="menu-caption">
+                            <div class="letter letter-u">U</div>
+                            <div class="letter letter-n">N</div>
+                            <div class="letter letter-e">E</div>
+                            <div class="letter letter-m">M</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="side-bar-right" class="transform">
+                    <div class="social-icon-container">
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div id="bottom-bar" class="transform">
+                    <p class="copyright">© 2021 Camille Gomes - <a href="#">Me contacter !</a></p>
+                </div>
+
+            </header>
+
+            <nav id="navigation" class="slider slide-in">
+                <div id="big-menu">
+                    <div class="navigation-links">
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-1 w-inline-block" href="about.html">
+                                <div class="nav-link-text">A propos</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-2 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Parcours</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-3 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Compétences</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-4 w-inline-block" href="portfolio.html">
+                                <div class="nav-link-text">Portfolio</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-5 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">HTML - CSS</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-6 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Javascript</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-7 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">PHP</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-8 w-inline-block" href="contact.html">
+                                <div class="nav-link-text">Contact</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav_block-right"></div>
+            </nav>
+        </div>
+
+        <div class="form-wrapper">
+            <h3 class="form-title title-line">Portfolio
+                <div class="title-hover-line"></div>
+            </h3>
+            <p class="form-undertitle">Détail & présentation de mes réalisations. Vous trouverez ici les réalisations achevées lors
+                 de mon cursus de Développeur Web à l'Université Gustave Eiffel.</p>
+        </div>
+
+        <div class="articles">
+            <div class="inner">
+                <div class="articles__items">
+                    <div class="article" style="background: url(images/formation-developpement-webforce3-1200x800.jpeg); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name"> Projet 1</div>
+                        <div class="article__icon"><i class="fab fa-js-square"></i></div> 
+                    </div>
+                    <div class="article" style="background: url(images/image-a-la-une-article-codeur-developpeur-web.png); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name"> Projet 2</div>
+                        <div class="article__icon"><i class="fab fa-html5"></i></div> 
+                    </div>
+                    <div class="article" style="background: url(images/Les-Principes-de-Developpement-Web-Moderne-blog-flashweb-agence-de-communication-belgique.jpg); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name"> Projet 3</div>
+                        <div class="article__icon"><i class="fab fa-css3-alt"></i></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="inner">
+                <div class="articles__items col-2">
+                    <div class="article" style="background: url(images/ZNYF6PYBSVPAM5PJI655HMAVOM.jpg); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name">Projet 4</div>
+                        <div class="article__icon"><i class="fab fa-js-square"></i></div> 
+                    </div>
+                    <div class="article" style="background: url(images/developpeur-web.jpg); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name">Projet 5</div>
+                        <div class="article__icon"><i class="fab fa-css3-alt"></i></div> 
+                    </div>
+                    <div class="article" style="background: url(images/Flipbox_dev_web.png); background-size: cover;"> 
+                        <div class="article__filter"></div>
+                        <div class="article__name">Projet 6</div>
+                        <div class="article__icon"><i class="fab fa-php"></i></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>

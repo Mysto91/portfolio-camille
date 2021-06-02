@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+
+        <title>Contact</title>
+    </head>
+
+    <body>
+
+        <div class="home_page">
+
+            <header>
+                <div id="top-bar" class="transform"> 
+                    <a class="index" href="index.html"><h5>Camille Gomes De Assunçao</h5></a>
+                </div>
+                <div id="side-bar-left" class="w40" class="transform">
+                    <div class="menu"
+                        onclick="toggleButton('navigation')" 
+                        onmouseover="changeClass('side-bar-left','w100')" 
+                        onmouseout="changeClass('side-bar-left','w40')">
+                        <div class="menu-lines">
+                            <div class="menu-line menu-line-top no-animation"></div>
+                            <div class="menu-line menu-line-center no-animation"></div>
+                            <div class="menu-line menu-line-bottom no-animation"></div>
+                        </div>
+                        <div id="close-menu" class="menu-x w-inline-block">
+                            <div class="menu-lines-closed">
+                                <div class="menu line menu-line-top-x"></div>
+                                <div class="menu line menu-line-center-x"></div>
+                                <div class="menu line menu-line-bottom-x"></div>
+                            </div>
+                        </div>
+                        <div class="menu-caption">
+                            <div class="letter letter-u">U</div>
+                            <div class="letter letter-n">N</div>
+                            <div class="letter letter-e">E</div>
+                            <div class="letter letter-m">M</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="side-bar-right" class="transform">
+                    <div class="social-icon-container">
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div id="bottom-bar" class="transform">
+                    <p class="copyright">© 2021 Camille Gomes - <a href="#">Me contacter !</a></p>
+                </div>
+
+            </header>
+
+            <nav id="navigation" class="slider slide-in">
+                <div id="big-menu">
+                    <div class="navigation-links">
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-1 w-inline-block" href="about.html">
+                                <div class="nav-link-text">A propos</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-2 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Parcours</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-3 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Compétences</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-4 w-inline-block" href="portfolio.html">
+                                <div class="nav-link-text">Portfolio</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-5 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">HTML - CSS</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-6 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Javascript</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-7 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">PHP</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-8 w-inline-block" href="contact.html">
+                                <div class="nav-link-text">Contact</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav_block-right"></div>
+            </nav>
+        </div>
+
+        <main class="flexbox-col">
+
+            <div class="form-wrapper">
+              <form id="form" method="post" name="emailform" action="email.php">
+                <h3 class="form-title title-line">Me contacter
+                    <div class="title-hover-line"></div>
+                </h3>
+                <p class="form-undertitle">Tous les champs sont obligatoires.</p>
+                <div class="form-input-max flexbox-send">
+                    <div class="button-wrapper">
+                      <button id="form-button" type="submit" class="button btn-primary"><i class="uil uil-envelope-heart"></i> Envoyer<div class="btn-secondary"></div></button>
+                     </div>
+                   </div>
+                <div class="form-input-grid">
+                  <div class="nom-contact">
+                    <p class="form-text">Nom</p>
+                    <div class="form-input-wrapper flexbox-left">
+                      <i class="uil uil-user"></i>
+                      <input class="form-input" id="uname" name="uname" type="text" placeholder="Nom" aria-label="" required>
+                    </div>
+                  </div>
+                  <div>
+                  <p class="form-text">Prénom</p>
+                  <div class="form-input-wrapper flexbox-left">
+                    <i class="uil uil-asterisk"></i>
+                    <input class="form-input" id="pword" name="pword" type="password" placeholder="Prénom" aria-label="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-input-max">
+                <p class="form-text">Email</p>
+                <div class="form-input-wrapper flexbox-left">
+                  <i class="uil uil-at"></i>
+                  <input class="form-input" id="email" name="email" type="email" placeholder="Email" aria-label="" required>
+                </div>
+              </div>
+              <div class="form-input-max">
+                <p class="form-text">Message (Max 500)</p>
+                <div id="textarea" class="form-input-wrapper flexbox-left-start">
+                  <i class="uil uil-comment-dots"></i>
+                  <textarea class="form-input" id="message" name="message" placeholder="Your message" maxlength="500" aria-label="" required></textarea>
+                </div>
+               </div>
+             </form>
+            </div>
+          
+          </main>
+        <script src="main.js"></script>
+    </body>
+
+</html>

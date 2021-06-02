@@ -1,0 +1,135 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 450px;
+    background-color:#F3E5F5;
+    position: relative;
+}
+
+.header__slogan {
+    z-index: 1;
+    position: relative;
+}
+
+.header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url("images/korea2.jpg") center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.header__mask {
+    position: absolute;
+    bottom: 0;
+    background: 0 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+} 
+
+.h__slogan__title {
+    color: #ffffff;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+
+.articles {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 20px 0 20px;;
+}
+
+.articles__title {
+    font-size: 20px;
+    text-align: center;
+    color: #BA68C8;
+    border-bottom: 3px solid #f39c12;
+    display: inline;
+}
+
+.articles__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 28%;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.article__filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6))
+}
+
+.article__name {
+    color: #fff;
+    z-index: 999;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 28px;
+}
+
+.article:hover .article__icon {
+    transform: translateY(0);
+}
+
+.article__icon {
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%)
+}
+
+@media only screen and (max-width: 880px) {
+    .btn {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .h__slogan__title {
+        justify-content: center;
+    }
+
+    .article {
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .articles__items {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="about.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+
+        <title>A propos</title>
+    </head>
+
+    <body>
+
+        <div class="home_page">
+
+            <!--Contour du site avec menu, footer et social media-->>
+            <header>
+                <div id="top-bar" class="transform"> 
+                    <a class="index" href="index.html"><h5>Camille Gomes De Assunçao</h5></a>
+                </div>
+                <div id="side-bar-left" class="w40" class="transform">
+                    <div class="menu"
+                        onclick="toggleButton('navigation')" 
+                        onmouseover="changeClass('side-bar-left','w100')" 
+                        onmouseout="changeClass('side-bar-left','w40')">
+                        <div class="menu-lines">
+                            <div class="menu-line menu-line-top no-animation"></div>
+                            <div class="menu-line menu-line-center no-animation"></div>
+                            <div class="menu-line menu-line-bottom no-animation"></div>
+                        </div>
+                        <div id="close-menu" class="menu-x w-inline-block">
+                            <div class="menu-lines-closed">
+                                <div class="menu line menu-line-top-x"></div>
+                                <div class="menu line menu-line-center-x"></div>
+                                <div class="menu line menu-line-bottom-x"></div>
+                            </div>
+                        </div>
+                        <div class="menu-caption">
+                            <div class="letter letter-u">U</div>
+                            <div class="letter letter-n">N</div>
+                            <div class="letter letter-e">E</div>
+                            <div class="letter letter-m">M</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="side-bar-right" class="transform">
+                    <div class="social-icon-container">
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#">
+                            <i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div id="bottom-bar" class="transform">
+                    <p class="copyright">© 2021 Camille Gomes - <a href="#">Me contacter !</a></p>
+                </div>
+
+            </header>
+
+            <!--Menu-->>
+
+            <nav id="navigation" class="slider slide-in">
+                <div id="big-menu">
+                    <div class="navigation-links">
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-1 w-inline-block" href="about.html">
+                                <div class="nav-link-text">A propos</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-2 w-inline-block" href="#formation">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Formation</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-3 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Compétences</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-4 w-inline-block" href="portfolio.html">
+                                <div class="nav-link-text">Portfolio</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-5 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">HTML - CSS</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-6 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">Javascript</div>
+                            </a>
+                        </div>
+                        <div class="navigation-sublink-hover">
+                            <a class="navigation-sublink-container nav-link-7 w-inline-block" href="#">
+                                <div class="nav-dashes">
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                    <div class="nav-dash-line"></div>
+                                </div>
+                                <div class="navigation-link navigation-sublink">PHP</div>
+                            </a>
+                        </div>
+                        <div class="navigation-link-hover">
+                            <a class="navigation-link nav-link-8 w-inline-block" href="contact.html">
+                                <div class="nav-link-text">Contact</div>
+                                <div class="nav-hover-line"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav_block-right"></div>
+            </nav>
+        </div>
+
+        <div id="hide">
+            <div class="form-wrapper">
+                <h3 class="form-title title-line">A propos
+                    <div class="title-hover-line"></div>
+                </h3>
+            </div>
+
+            <!--A propos-->>
+
+            <div class="container">
+                <div class="polaroid">
+                    <img class="photo" src="https://images.unsplash.com/photo-1596815045171-88fd3eb19f90?w=611" alt="">		
+                </div>	
+                <div class="text-about">
+                    <h3 class="hello">Bonjour,  je suis Camille Gomes,</h3>
+                    <p class="undertitle">Je suis étudiante en DU (Diplôme Universitaire) Développeur Web, Webdesigner à l'Université Gustave Eiffel. 
+                        J'ai fait le choix de me professionnaliser dans le développement informatique après 2 ans en communication. </p>
+                    <div class="button-link">
+                        <a href="#formation"><button class="button">Formation</button></a>
+                        <a href="#work"><button class="button">Expérience</button></a>
+                        <a href="#competence"><button class="button">Compétence</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Titre-->
+
+            <div class="formation-container">
+                <div id="formation" class="section-intro">
+                    <div class="section-intro-text">Formation</div>
+                    <div class="separator-dashes">
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Formation -->
+
+            <div class="timeline-f">
+                <ul>
+                <li>
+                    <div class="content">
+                    <h3>Université Gustave Eiffel</h3>
+                    <p>DU Développeur Web, Webdesigner </p>
+                    </div>
+                    <div class="time">
+                    <h4>2021 - 2021</h4>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                    <h3>Sup de Pub | Groupe INSEEC </h3>
+                    <p> Master en Communication -
+                        Événementiel et Communication Culturelle (M2) -
+                        Marketing Événementiel et Relations Presses (M1) </p>
+                    </div>
+                    <div class="time">
+                    <h4>2018 - 2020</h4>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                    <h3>Université d'Evry Val d'Essonne </h3>
+                    <p>Licence Professionnelle Chargé de Communication </p>
+                    <p>DUT Gestion des Entreprises et des Administrations</p>
+                    </div>
+                    <div class="time">
+                    <h4>2016 - 2018</h4>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="content">
+                    <h3>Lycée Francisque Sarcey </h3>
+                    <p>Baccalauréat en Sciences et Technologies du Management et de la Gestion, option Ressources Humaines, mention bien </p>
+                    </div>
+                    <div class="time">
+                    <h4>2014 - 2015</h4>
+                    </div>
+                </li>
+                
+                <div style="clear:both;"></div>
+                </ul>
+            </div>
+
+            <!--Titre-->
+
+            <div class="experience-container">
+                <div id="work" class="section-intro">
+                    <div class="section-intro-text">Expérience</div>
+                    <div class="separator-dashes">
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Timeline Experience-->
+
+            <div id="experience">
+
+                <div class="work">
+                    <div class="header">
+                        <h1 class="text-date">2018 - 2020</h1>
+                    </div>
+                    <img class="logo" src="images/eb6f00fced7814b95e2802b9239213669ff32592.png" width="100px">
+                    <div class="info-experience">
+                        <h4 class="work-name">Alternance</h4>
+                        <h5 class="lieu">Chargée de communication - Community Manager</h5>
+                        <ul class="details">
+                            <li>Animation et développement des communautés Facebook, Twitter, LinkedIn et YouTube,</li>
+                            <li>Organisation d'événements entreprise </li> 
+                                <ul>
+                                    <li>Assemblée Générale, Réunion thématique...</li>
+                                </ul>
+                            <li>Création de supports de communication </li>
+                            <ul>
+                                <li>Flyers, Newletters, Kakémonos...</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <div class="header">
+                        <h1 class="text-date">2017</h1>
+                    </div>
+                    <img class="logo" src="images/logo-pure-pommette-final-grand.png" width="100px">
+                    <div class="info-experience">
+                        <h4 class="work-name">Stage</h4>
+                        <h5 class="lieu">Responsable vente</h5>
+                        <ul class="details">
+                            <li>Animation et développement des communautés Facebook et LinkedIn</li>
+                            <li>Organisation salon "Paternité, maternité et enfants" de Montréal</li> 
+                            <li>Vente au public</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <div class="header">
+                        <h1 class="text-date">2016</h1>
+                    </div>
+                    <img class="logo" src="images/LOreal-Logo.png" width="100px">
+                    <div class="info-experience">
+                        <h4 class="work-name">Stage</h4>
+                        <h5 class="lieu">Comptable</h5>
+                        <ul class="details">
+                            <li>Contacts fournisseurs</li>
+                            <li>Saisie de factures</li> 
+                            <li>Emailing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Titre-->
+
+            <div class="competence-container">
+                <div id="competence" class="section-intro">
+                    <div class="section-intro-text">Compétence</div>
+                    <div class="separator-dashes">
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                        <div class="separator-dash-line"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--Skills Bar-->
+            <br>
+            <br>
+
+            <div class="container-skills">
+                <div class="html">
+                    <p class="bar-title">
+                        HTML / CSS
+                        <span class="percent align-right">90%</span>
+                    </p>
+
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-html start"></div>
+                    </div>
+                </div>
+
+                <div class="javascript">
+                    <p class="bar-title">
+                        Javascript
+                        <span class="percent align-right">40%</span>
+                    </p>
+
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-javascript start"></div>
+                    </div>
+                </div>
+
+                <div class="PHP">
+                    <p class="bar-title">
+                        PHP
+                        <span class="percent align-right">40%</span>
+                    </p>
+
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-php start"></div>
+                    </div>
+                </div>
+
+                <div class="responsive-design">
+                    <p class="bar-title">
+                        Responsive Design
+                        <span class="percent align-right">60%</span>
+                    </p>
+
+                    <div class="bar">
+                        <div class="bar-fill bar-fill-responsive start"></div>
+                    </div>
+                </div>
+
+                <div class="photoshop">
+                    <p class="bar-title">
+                        Photoshop
+                        <span class="percent align-right">20%</span>
+                    </p>
+
+                    <div class="bar">
+                    <div class="bar-fill bar-fill-photoshop start"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <script src="about.js"></script>
+    </body>
+
+</html>
