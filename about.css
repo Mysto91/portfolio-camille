@@ -141,9 +141,7 @@ button {
   border: solid 2px transparent;
   border-image: linear-gradient(90deg,#cc72db,#737cdf);
   border-image-slice: 1;
-  background: linear-gradient(90deg,#cc72db,#737cdf);
-  background-clip: text;
-  color: transparent;
+  color : #d185dd;
   cursor: pointer;
   margin-right: 20px;
 }
@@ -224,9 +222,7 @@ button a {
 .timeline-f ul li h3{
   padding:0;
   margin:0;
-  background: -webkit-linear-gradient(#8189e4,#d185dd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color :#737cdf;
   font-weight:600;
 }
 .timeline-f ul li p{

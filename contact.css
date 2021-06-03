@@ -323,8 +323,14 @@ textarea::-webkit-scrollbar-thumb {
         width: 60%;
     }
 
+    #form-button {
+        font-size: 12px;
+    }
+
     .flexbox-send {
         float: none;
+        margin-left: 220px;
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 496px) {

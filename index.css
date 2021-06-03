@@ -19,19 +19,13 @@ button {
     padding: 15px 20px;
     letter-spacing: 3px;
     border: solid 2px transparent;
-    border-image: linear-gradient(90deg,#cc72db,#737cdf);
-    border-image-slice: 1;
-    background: linear-gradient(90deg,#cc72db,#737cdf);
-    background-clip: text;
-    color: transparent;
+    border-color: #737cdf;
     cursor: pointer;
 }
 
 button a {
     text-decoration: none;
-    background: -webkit-linear-gradient(#8189e4,#d185dd);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #d185dd;
 }
 
 #CV {
